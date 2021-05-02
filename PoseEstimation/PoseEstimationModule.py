@@ -54,8 +54,8 @@ def main():
         ptime = ctime
 
         cv2.putText(img, f'fps:{int(fps)}', (20, 70), cv2.FONT_HERSHEY_PLAIN, 2, (0, 255, 255), 3)
-        cv2.namedWindow('Faces')
-        cv2.imshow('Faces', img)
+        cv2.namedWindow('Pose')
+        cv2.imshow('Pose', img)
         cv2.waitKey(1)
 
 
